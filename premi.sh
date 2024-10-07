@@ -33,10 +33,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Dragon Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To Fathurrohman Tunneling ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Dragon Emperor® ${NC}${YELLOW}(${NC} ${green} Dragon Tunneling ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self Dragon Tunneling${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green} Fathurrohmaan ® ${NC}${YELLOW}(${NC} ${green} Fathurrohman Tunneling ${NC}${YELLOW})${NC}"
+echo -e " © Recode By Fathurrohman Tunneling${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -96,9 +96,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/arifkenza09/vip/main/izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/arifkenza09/vip1/main/izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/arifkenza09/vip/main/izin | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/arifkenza09/vip1/main/izin | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -310,8 +310,8 @@ clear
 clear
 #GANTI PASSWORD DEFAULT
 restart_system() {
-    USRSC=$(wget -qO- https://raw.githubusercontent.com/arifkenza09/vip/main/izin | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(wget -qO- https://raw.githubusercontent.com/arifkenza09/vip/main/izin | grep $ipsaya | awk '{print $3}')
+    USRSC=$(wget -qO- https://raw.githubusercontent.com/arifkenza09/vip1/main/izin | grep $ipsaya | awk '{print $2}')
+    EXPSC=$(wget -qO- https://raw.githubusercontent.com/arifkenza09/vip1/main/izin | grep $ipsaya | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
@@ -531,7 +531,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit Quota"
-wget raw.githubusercontent.com/arifkenza09/vip/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
+wget raw.githubusercontent.com/arifkenza09/vip1/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
 
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}limit/limit-ip"
